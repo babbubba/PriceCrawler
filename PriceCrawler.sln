@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceCrawler", "PriceCrawler\PriceCrawler.csproj", "{EE982C95-9066-47FB-BEA0-73CF4417BFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceCrawler.Core", "PriceCrawler.Core\PriceCrawler.Core.csproj", "{CF62B935-8097-43AF-AA05-DF91E69612AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE982C95-9066-47FB-BEA0-73CF4417BFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE982C95-9066-47FB-BEA0-73CF4417BFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE982C95-9066-47FB-BEA0-73CF4417BFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE982C95-9066-47FB-BEA0-73CF4417BFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF62B935-8097-43AF-AA05-DF91E69612AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF62B935-8097-43AF-AA05-DF91E69612AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF62B935-8097-43AF-AA05-DF91E69612AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF62B935-8097-43AF-AA05-DF91E69612AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DC1E027-52E4-4E6E-AF7B-77D715D2343F}
+	EndGlobalSection
+EndGlobal
