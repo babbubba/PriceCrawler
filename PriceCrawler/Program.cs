@@ -11,8 +11,8 @@ namespace PriceCrawler
     {
         static async Task Main(string[] args)
         {
-			ThreadPool.SetMaxThreads(255, 255);
-			ThreadPool.SetMinThreads(255, 255);
+			//ThreadPool.SetMaxThreads(255, 255);
+			//ThreadPool.SetMinThreads(255, 255);
 
 			Log.Logger = new LoggerConfiguration()
 				.MinimumLevel.Information()
@@ -24,10 +24,9 @@ namespace PriceCrawler
 				.CreateLogger();
 
 			// // await DistributedSpider.RunAsync();
-			await EPriceSpider.RunAsync();
+			await AmazonSpider.RunAsync("Videoproiettore led");
 
 			Console.WriteLine("Finito!");
-			Console.ReadKey();
 			Environment.Exit(0);
 		}
     }
